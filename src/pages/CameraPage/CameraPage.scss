@@ -1,0 +1,146 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url(../../assets/fonts/Montserrat.ttf);
+}
+
+.page{
+  margin-top: 8px;
+  width: 100%;
+  display: grid;
+  align-content: center;
+  justify-items: center;
+}
+.head{
+  display: flex;
+  padding-right: 25px;
+  width: 100%;
+  justify-content: flex-end;
+}
+.logo-x{
+  width: 18px;
+  margin-top: 35px;
+}
+.hdr{
+  width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.camera-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.camera-video {
+  width: 328px; 
+  margin-bottom: 10px;
+  border-radius: 16px;
+  border: 10px solid rgb(123, 123, 123);
+}
+.t-p{
+  margin-bottom: 70px;
+}
+.text-qr{
+  font-family: 'Montserrat';
+  font-size: 15px;
+  margin-bottom: 40px;
+  width: 247px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+
+}
+.text-nfc{
+  font-family: 'Montserrat';
+  font-size: 15px;
+  margin-bottom: 88px;
+  width: 247px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.text-barras{
+  font-family: 'Montserrat';
+  font-size: 15px;
+  margin-bottom: 40px;
+  width: 247px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+strong{
+  -webkit-text-stroke: thin;
+}
+.file-logs{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.log-box{
+  display: grid;
+  width: 62px;
+  justify-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.logs{
+  width: 36px;
+}
+.log-i-a, .log-i-b, .log-i-c{
+  background-color: lightgray;
+  border-radius: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  padding: 0px;
+  width: 30px;
+  height: 30px;
+}
+span{
+  margin-top: 10px;
+  font-size: smaller;
+  width: 61px;
+}
+
+
+.log-i-a, .log-i-b, .log-i-c{
+  width: 56px;
+  height: 56px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.log-i-a.active, .log-i-b.active, .log-i-c.active {
+  background-color: rgb(0, 225, 255);
+  width: 56px;
+  height: 56px;
+}
+
+.qr-link-overlay, .barcode-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
+  z-index: 10;
+  width: 245px;
+  height: 190px;
+}
+
+.letrasIconos{
+  font-family: 'Montserrat';
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.lineaMedioCamara{
+  width: 308px;
+  height: 2px;
+  background-color: rgba(220, 71, 8, 0.67);
+  position: absolute;
+}

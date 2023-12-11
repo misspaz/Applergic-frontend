@@ -1,0 +1,49 @@
+.header-scanner {
+   width: 100vw;
+   height: 8vh;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   .header-scanner-div {
+      width: 15%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 2%;
+      color: aqua;
+
+      .img-header-scanner-back {
+         width: 15px;
+         height: auto;
+         object-fit: cover;
+      }
+
+      .span-header-scanner {
+         width: auto;
+         margin: 0;
+         font-size: 13px;
+      }
+   }
+
+   .span-header-scanner {
+      width: auto;
+      margin: 0;
+      font-size: 13px;
+      margin-right: 9%;
+   }
+
+   .a-header-scanner-close {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 2%;
+      
+      .img-header-scanner-close {
+         width: 25px;
+         height: auto;
+         align-items: center;
+         object-fit: cover;
+      }
+   }
+}
